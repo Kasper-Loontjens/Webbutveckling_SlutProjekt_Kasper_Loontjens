@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(39, 38, 38);
+}
+
+main{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    min-height: 30%;
+    flex-basis: 42%;
+}
+p {
+	padding: 4px;
+}
+article{
+	border: solid 3px;
+	margin: 2%;	
+	width: 100%;
+	align-self: stretch;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	}
+footer{
+	position: fixed;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: end;
+    background-color: brown;
+}
+#yesNoButtons{
+	margin: 13px;
+	padding: 2px;
+	background-color: brown;
+	border: solid 3px;
+	border-radius: 30%;
+}
+.buttons{
+	padding: 2px;
+	background-color: brown;
+	border: solid 3px;
+	border-radius: 30%;
+}
+#borderRadiusNull{
+	border-radius: 5%;
+}
+#saveCookiesQ{
+	margin-top: 15px;
+}
+#textBox{
+	border: solid 2px;
+	border-radius: 5%;	
+	margin: 2px;
+}
+form{
+	    padding: 5px;
+}
+#questionForm{
+	align-self: center;
+	justify-self: center;
+}
